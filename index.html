@@ -10,9 +10,9 @@
 
   <title>44-663 C#.NET</title>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
+  <!-- Bootstrap Material Design CSS goes first https://fezvrasta.github.io/bootstrap-material-design/ -->
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
   <link href="styles/case-syllabus.css" rel="stylesheet">
@@ -59,11 +59,6 @@
 
     <h2>Course Title</h2>
     44-663 Application Development in C#.NET
-    <br />
-    <br />
-    <ul>
-      <li>Section 01, MWF 2:00-2:50 pm, Colden Hall 1200 </li>
-    </ul>
 
     <h2>Course Credit</h2>
     3 hours
@@ -79,24 +74,21 @@
     <br /> Assistant Professor
     <br /> 660.562.1136
     <br />
-    <a target="_top" href="mailto:dcase@nwmissouri.edu?Subject=Put Course Number and Section Here - with useful subject">dcase@nwmissouri.edu</a>
+    <a target="_top" href="mailto:dcase@nwmissouri.edu?Subject=44-663">dcase@nwmissouri.edu</a>
     <br />
     <a target="_blank" href="https://www.nwmissouri.edu/services/facility/pdf/floorplans/Colden%20Hall%202nd%20Floor.pdf">
       Colden Hall 2280</a>
     <br />
 
     <h2>Course Description </h2>
-    Development, deployment and versioning of software components using the
-    Microsoft.NET framework. Emphasis on building sophisticated applications
-    using component-based development and current industry standards. Includes
-    hands-on experience in both server-side and client-side programming using a
-    variety of Microsoft.NET technologies.
+    Development, deployment and versioning of software components using the Microsoft.NET framework. Emphasis on
+    building sophisticated applications using component-based development and current industry standards. Includes
+    hands-on experience in both server-side and client-side programming using a variety of Microsoft.NET technologies.
 
     <h2>Course Rationale</h2>
-    This course involves an overview of developing full-stack web applications
-    with .NET core. The course covers application design and development
-    through hands-on, creative implementation exercises using modern
-    tools and techniques for building professional, cross-platform web applications.
+    This course involves an overview of developing full-stack web applications with .NET core. The course covers
+    application design and development through hands-on, creative implementation exercises using modern tools and
+    techniques for building professional, cross-platform web applications.
 
     <h2>Student Learning Outcomes</h2>
 
@@ -147,7 +139,7 @@
         SSH public/private key pairs</li>
       <li> Free
         <a target="_blank" href="https://bitbucket.org">BitBucket</a> and
-        <a target="_blank" href="https://github.com/"></a>GitHub</a> educational accounts</li>
+        <a target="_blank" href="https://github.com/">GitHub</a> educational accounts</li>
       <li> Free
         <a target="_blank" href="https://education.github.com/pack">GitHub Education Pack</a> (as needed)</li>
       <li> Free
@@ -173,43 +165,64 @@
     </ul>
 
     <h2>Course Outline</h2>
-    The course is divided into an initial overview (Module 0) and seven content modules.
+    The course is divided into seven content modules.
     <table class="tg">
       <tr>
-        <th class="tg-s268">Module</th>
-        <th class="tg-s268">Topics</th>
-      </tr>
-      <tr>
-        <td class="tg-s268">0</td>
-        <td class="tg-s268">Introduction and course overview</td>
+        <th class="tg-5mgg">Module</th>
+        <th class="tg-5mgg">Weeks</th>
+        <th class="tg-5mgg">Topics</th>
+        <th class="tg-5mgg">Reading</th>
+        <th class="tg-5mgg">Workshops</th>
       </tr>
       <tr>
         <td class="tg-s268">1</td>
-        <td class="tg-s268">.NET, C#, data structures and algorithms, application design</td>
+        <td class="tg-s268">1-2</td>
+        <td class="tg-s268">Intro, environment, Markdown, Git, .NET, C#, data structures and algorithms, application
+          design</td>
+        <td class="tg-s268">Ch 1-2,4</td>
+        <td class="tg-0lax"></td>
       </tr>
       <tr>
         <td class="tg-s268">2</td>
-        <td class="tg-s268">Design patterns, MVC, controllers, views, layouts, forms, tag helpers</td>
+        <td class="tg-s268">3-4</td>
+        <td class="tg-s268">Design patterns, MVC, controllers, views, layouts, Razor, unit testing</td>
+        <td class="tg-s268">Ch 3,7</td>
+        <td class="tg-0lax">1,2</td>
       </tr>
       <tr>
         <td class="tg-s268">3</td>
-        <td class="tg-s268">Models, annotations, validation, Exam 1, working with data, project schema</td>
+        <td class="tg-s268">5-6</td>
+        <td class="tg-s268">Models, annotations, validation, working with data, project schema, Exam 1</td>
+        <td class="tg-s268">Ch 26-27</td>
+        <td class="tg-0lax"></td>
       </tr>
       <tr>
         <td class="tg-s268">4</td>
-        <td class="tg-s268">Migrations, project design</td>
+        <td class="tg-s268">7-8</td>
+        <td class="tg-s268">Migrations, project design, debugging</td>
+        <td class="tg-s268">Ch 14</td>
+        <td class="tg-0lax">3,4</td>
       </tr>
       <tr>
         <td class="tg-s268">5</td>
-        <td class="tg-s268">Security, identity, client-side development. project API, testing, Exam 2</td>
+        <td class="tg-s268">9-10</td>
+        <td class="tg-s268">Security, identity, Project API, testing, Exam 2</td>
+        <td class="tg-s268">Ch 28-30</td>
+        <td class="tg-0lax">5,6</td>
       </tr>
       <tr>
         <td class="tg-s268">6</td>
-        <td class="tg-s268">Deployment, hosting, </td>
+        <td class="tg-s268">11-13</td>
+        <td class="tg-s268">Hosting, CI, Deployment</td>
+        <td class="tg-s268">Ch 11-12</td>
+        <td class="tg-0lax">7,8</td>
       </tr>
       <tr>
         <td class="tg-s268">7</td>
+        <td class="tg-s268">14-16</td>
         <td class="tg-s268">Projects, Final Exam</td>
+        <td class="tg-s268"></td>
+        <td class="tg-0lax"></td>
       </tr>
     </table>
 
@@ -246,19 +259,19 @@
         <td class="tg-yw4l">2%</td>
       </tr>
       <tr>
-        <td class="tg-yw4l">Tutorial</td>
-        <td class="tg-yw4l">5%</td>
-      </tr>
-      <tr>
-        <td class="tg-yw4l">Quizzes</td>
-        <td class="tg-yw4l">10%</td>
-      </tr>
-      <tr>
         <td class="tg-yw4l">Exercises</td>
         <td class="tg-yw4l">18%</td>
       </tr>
       <tr>
+        <td class="tg-yw4l">Tutorial</td>
+        <td class="tg-yw4l">5%</td>
+      </tr>
+      <tr>
         <td class="tg-yw4l">Projects</td>
+        <td class="tg-yw4l">10%</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">Quizzes</td>
         <td class="tg-yw4l">10%</td>
       </tr>
       <tr>
@@ -316,8 +329,8 @@
     <h2> Email Requirements </h2>
     Professional email practices are required.
     <ol>
-      <li class="highlight ">Email must include course number and section (e.g.,
-        <strong>44-663-01</strong>) in the subject line. </li>
+      <li class="highlight ">Email must include course number and section (e.g., <strong>44-663-01</strong>) in the
+        subject line. </li>
       <li>Email should be professional, politely written, and use proper grammar, capitalization, and spelling. </li>
     </ol>
 
@@ -328,9 +341,8 @@
         class.</li>
       <li> Unauthorized use of devices during class may result in reduction in scores.</li>
       <li>Be ready to work when the class is scheduled to begin.</li>
-      <li>Be polite and respective to other people in the class. Do not interrupt someone during a class discussion,
-        and respect
-        others' opinions/comments as you expect them to respect yours.</li>
+      <li>Be polite and respectful to others in the class. Do not interrupt someone during a class discussion, and
+        respect others' opinions/comments as you expect them to respect yours.</li>
     </ol>
 
     <h2> Citation Requirements</h2>
@@ -350,37 +362,36 @@
     <!-- Standard University -->
 
     <h2>Late Work Policy </h2>
-    Graded activities are expected to be completed by due date. Late work is not accepted and may result in a 0 for the
-    assignment. If you must miss an activity or a deadline, contact the instructor in advance.
+    Graded activities are expected to be completed by due date. Late work may not accepted and may result in a 0 for
+    the assignment. If you must miss an activity or a deadline, contact the instructor in advance.
 
     <h2>Submissions</h2>
-    All submissions must be unique and creative. All submissions must be your own, creative, unique work. Students may
-    be asked to explain their work during class, in discussions, or in a recorded submission.
+    All submissions must be your own, creative, unique work. Students may be asked to explain their work during class,
+    in discussions, or in a recorded submission.
 
     <h2> Grade of Incomplete (I)</h2>
     Following Northwest Missouri State University policy, incomplete grades may only be given in extreme circumstances,
     such as illness, death in a student 's immediate family, or similar circumstances beyond a student's control, and
-    the
-    student was unable to complete a significant portion of the course work.
+    the student was unable to complete a significant portion of the course work.
 
     <h2>Attendance </h2>
     Students are expected to attend all classes as specified in the course syllabi for each course. This course has
-    many in-class activities, most of which have points and may not be announced in advance. Students arriving late or missing
-    activities due to unexcused absences may not be able to make up work and may earn zero points for the activity. It is the
-    responsibility of the student to promptly notify their instructor when unable to attend class. Please refer to the university
-    policy on attendance at
+    many in-class activities, most of which have points and may not be announced in advance. Students arriving late or
+    missing activities due to unexcused absences may not be able to make up work and may earn zero points for the
+    activity. Notify your instructor when unable to attend class. Please refer to the university policy on attendance
+    at
     <a target="_blank" href="https://www.nwmissouri.edu/policies/academics/Attendance.pdf">https://www.nwmissouri.edu/policies/academics/Attendance.pdf</a>
 
     <h2>Excused Absences </h2>
     Excused absences include attendance at a university sponsored event (documented with an excuse signed by the
-    university sponsor prior to the event) or by circumstances considered extenuating by the course instructor. A student may make up
-    class work without penalty for excused absences.
+    university sponsor prior to the event) or by circumstances considered extenuating by the course instructor. A
+    student may make up class work without penalty for excused absences.
 
     <h2>Final Exams</h2>
     If an emergency occurs that prevents the administration of a course scheduled final examination, the final course
     grades will be calculated based on the work in the course completed to that point in time and the faculty member’s
-    considered judgment. Final exams will not be rescheduled, and a grade of “I” will not be given as a result of an institutional
-    cancellation of a final examination.
+    considered judgment. Final exams will not be rescheduled, and a grade of “I” will not be given as a result of an
+    institutional cancellation of a final examination.
 
     <h2>Administrative Drop </h2>
     An instructor may request the Office of the Registrar delete a student from a course roster if the student has not
@@ -392,30 +403,28 @@
 
     <h2>University Communications </h2>
     Students are expected to use their Northwest student email account for any electronic correspondence within the
-    university.
-    Students are also strongly advised to check their email and CatPAWS accounts on a regular basis.
+    university. Students are also strongly advised to check their email and CatPAWS accounts on a regular basis.
 
     <h2>Academic Integrity Policy</h2>
     The students, faculty, and staff at Northwest endeavor to sustain an environment that values honesty in academic
-    work, that acknowledges the authorized aid provided by and intellectual contributions of others, and that enables equitable
-    student evaluation. Please refer to Northwest Missouri State University’s Academic Integrity Policy at
-    <a target="_blank" href="http://www.nwmissouri.edu/policies/academics/Academic-Integrity.pdf">http://www.nwmissouri.edu/policies/academics/Academic-Integrity.pdf
-    </a>. In addition, students are expected to understand
-    and abide by the Computer Science and Information Systems Academic Integrity Policy at
-    <a target="_blank" href="http://www.nwmissouri.edu/csis/pdf/AcademicIntegrityCSI.doc">http://www.nwmissouri.edu/csis/pdf/AcademicIntegrityCSI.doc
-    </a>. This document explains types of behavior considered
-    to constitute academic dishonesty. You are responsible for reading this document and abiding by the guidelines
-    described therein.
+    work, that acknowledges the authorized aid provided by and intellectual contributions of others, and that enables
+    equitable student evaluation. Please refer to Northwest Missouri State University’s Academic Integrity Policy at
+    <a target="_blank" href="http://www.nwmissouri.edu/policies/academics/Academic-Integrity.pdf">http://www.nwmissouri.edu/policies/academics/Academic-Integrity.pdf</a>.
+    In addition, students are expected to understand and abide by the Computer Science and Information Systems Academic
+    Integrity Policy at
+    <a target="_blank" href="http://www.nwmissouri.edu/csis/pdf/AcademicIntegrityCSI.doc">http://www.nwmissouri.edu/csis/pdf/AcademicIntegrityCSI.doc</a>.
+    This document explains types of behavior considered to constitute academic dishonesty. You are responsible for
+    reading this document and abiding by the guidelines described therein.
 
     <h2>Special Accommodations Policy </h2>
     Northwest Missouri State University complies with Section 504 of the Rehabilitation Act of 1973 and the Americans
-    with Disabilities Act of 1990 [ADA] and the ADA Amendments Act of 2008 [ADAAA]. If a student has a disability that qualifies under
-    the ADA/ADAAA and requires accommodations, they should contact the Office for Equity and Accessibility for information
-    on appropriate policies and procedures at
+    with Disabilities Act of 1990 [ADA] and the ADA Amendments Act of 2008 [ADAAA]. If a student has a disability that
+    qualifies under the ADA/ADAAA and requires accommodations, they should contact the Office for Equity and
+    Accessibility for information on appropriate policies and procedures at
     <a href="tel:+16605621639">660.562.1639</a>, or
-    <a target="_top" href="mailto:pjp@nwmissouri.edu?Subject=Special accomodations">pjp@nwmissouri.edu</a> /
-    <a target="_top" href="mailto:ADA@nwmissouri.edu?Subject=Special accomodations">ADA@nwmissouri.edu</a>. For the
-    university policy on disability accommodation refer to
+    <a target="_top" href="mailto:pjp@nwmissouri.edu?Subject=Accomodations">pjp@nwmissouri.edu</a> /
+    <a target="_top" href="mailto:ADA@nwmissouri.edu?Subject=Accomodations">ADA@nwmissouri.edu</a>. For the university
+    policy on disability accommodation refer to
     <a target="_blank" href="http://www.nwmissouri.edu/policies/student/Disability-Accommodation.pdf">http://www.nwmissouri.edu/policies/student/Disability-Accommodation.pdf</a>.
 
     <h2>Non-Discrimination and Anti-Harrassment Policy </h2>
@@ -426,8 +435,8 @@
 
     <h2> Family Educational Rights and Privacy Act (FERPA) </h2>
     Family Educational Rights and Privacy Act of 1974, as amended (commonly known as the Buckley Amendment), is a
-    federal law which provides that colleges and universities will maintain the confidentiality of student education records.
-    Please refer to the Family Educational Rights and Privacy Act (FERPA) Policy at
+    federal law which provides that colleges and universities will maintain the confidentiality of student education
+    records. Please refer to the Family Educational Rights and Privacy Act (FERPA) Policy at
     <a target="_blank" href="http://www.nwmissouri.edu/policies/academics/Family-Educational-Rights-and-Privacy-Act.pdf">http://www.nwmissouri.edu/policies/academics/Family-Educational-Rights-and-Privacy-Act.pdf</a>
 
     <h2>Course Evaluation</h2>
@@ -441,7 +450,6 @@
 
   </main>
 
-
   <footer class="footer ">
     <div class="container ">
       <span class="text-muted ">
@@ -452,15 +460,27 @@
     </div>
   </footer>
 
-  <!-- Bootstrap core JavaScript
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65828104-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-65828104-3');
+  </script>
+
+
+  <!-- Bootstrap Material design https://fezvrasta.github.io/bootstrap-material-design/
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
     crossorigin="anonymous"></script>
+
   <script src="vendor/mark.min.js"></script>
   <script src="scripts/main.js"></script>
 </body>
